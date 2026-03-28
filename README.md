@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anokhi Enterprises - Tour & Travel</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fb;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #0a3d62, #3c6382);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+header p {
+    margin: 5px;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+}
+
+.btn {
+    background: #f6b93b;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* SECTION */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.destinations span {
+    display: inline-block;
+    background: #3c6382;
+    color: white;
+    padding: 10px 15px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* CARDS */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* CAR IMAGE */
+.car img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+/* BADGES */
+.badges span {
+    display: inline-block;
+    background: #f6b93b;
+    margin: 8px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* CONTACT */
+.contact {
+    background: #0a3d62;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    background: #1e3799;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>🔵 ANOKHI ENTERPRISES 🔵</h1>
+    <p>🚖 Tour & Travel Services (WagonR Available)</p>
+</header>
+
+<section class="hero">
+    <h2>Comfortable Travel From Pune</h2>
+    <p>Pune | Amravati | Kokan | Nashik | Bhimashankar | Lonavala | Mumbai | Pandharpur | Jejuri</p>
+    <a href="tel:7776978740" class="btn">📞 Book Now</a>
+</section>
+
+<section class="section">
+    <h2>🌍 Travel Destinations</h2>
+    <div class="destinations">
+        <span>Pune</span>
+        <span>Amravati</span>
+        <span>Kokan</span>
+        <span>Nashik</span>
+        <span>Bhimashankar</span>
+        <span>Lonavala</span>
+        <span>Mumbai</span>
+        <span>Pandharpur</span>
+        <span>Jejuri</span>
+        <span>All Maharashtra</span>
+    </div>
+</section>
+
+<section class="section">
+    <h2>✨ Why Choose Us</h2>
+    <div class="services">
+        <div class="card">✔ Safe Travel</div>
+        <div class="card">✔ Affordable Pricing</div>
+        <div class="card">✔ Reliable Service</div>
+        <div class="card">✔ Experienced Driver</div>
+    </div>
+</section>
+
+<section class="section car">
+    <h2>🚗 Our Vehicle</h2>
+    <img src="https://imgd.aeplcdn.com/1200x900/n/cw/ec/40432/wagonr-exterior-right-front-three-quarter.jpeg">
+    <p>Clean & Well-Maintained WagonR</p>
+</section>
+
+<section class="section">
+    <h2>💼 Special Packages</h2>
+    <div class="services">
+        <div class="card">Family Trips</div>
+        <div class="card">Weekend Tours</div>
+        <div class="card">Custom Travel Plans</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>🏆 Our Highlights</h2>
+    <div class="badges">
+        <span>Best Price Guarantee</span>
+        <span>24/7 Service</span>
+        <span>Comfort Ride</span>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>📞 Book Now</h2>
+    <p>📲 7776978740</p>
+    <p>📲 7378775573</p>
+    <p>📍 Address: Alandi, Pune</p>
+    <a href="tel:7776978740" class="btn">Call Now</a>
+</section>
+
+<footer>
+    <p>© 2026 Anokhi Enterprises | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anokhi Enterprises - Tour & Travel</title>
+
+<style>
+body {margin:0;font-family:Arial;background:#f4f7fb;}
+header {background:#0a3d62;color:white;text-align:center;padding:20px;}
+.hero {
+    background:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover;
+    color:white;text-align:center;padding:100px 20px;
+}
+.btn {
+    background:#f6b93b;padding:12px 20px;color:black;
+    text-decoration:none;border-radius:5px;display:inline-block;margin:10px;
+}
+.section {padding:40px 20px;text-align:center;}
+.services {display:flex;flex-wrap:wrap;justify-content:center;}
+.card {
+    background:white;margin:10px;padding:20px;width:250px;
+    border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.contact {background:#0a3d62;color:white;padding:40px;text-align:center;}
+input, select {
+    padding:10px;margin:10px;width:80%;
+    max-width:300px;border-radius:5px;border:1px solid #ccc;
+}
+footer {background:#1e3799;color:white;text-align:center;padding:10px;}
+
+/* WhatsApp Button */
+.whatsapp {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    font-size:20px;
+    text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>🔵 ANOKHI ENTERPRISES 🔵</h1>
+    <p>Tour & Travel Services (WagonR Available)</p>
+</header>
+
+<section class="hero">
+    <h2>Comfortable Travel From Pune</h2>
+    <p>Pune | Amravati | Kokan | Nashik | Lonavala | Mumbai | Pandharpur</p>
+    <a href="tel:7776978740" class="btn">📞 Call Now</a>
+    <a href="https://wa.me/917776978740" class="btn">💬 WhatsApp</a>
+</section>
+
+<section class="section">
+    <h2>✨ Our Services</h2>
+    <div class="services">
+        <div class="card">Safe & Secure Travel</div>
+        <div class="card">Affordable Pricing</div>
+        <div class="card">Experienced Driver</div>
+        <div class="card">Clean WagonR</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>💼 Book Your Trip</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="tel" placeholder="Mobile Number" required><br>
+        <input type="text" placeholder="From Location"><br>
+        <input type="text" placeholder="To Destination"><br>
+        <select>
+            <option>Select Package</option>
+            <option>Family Trip</option>
+            <option>Weekend Tour</option>
+            <option>Custom Plan</option>
+        </select><br>
+        <a href="https://wa.me/917776978740" class="btn">Submit via WhatsApp</a>
+    </form>
+</section>
+
+<section class="section">
+    <h2>📍 Our Location</h2>
+    <iframe 
+        src="https://maps.google.com/maps?q=alandi%20pune&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="90%" height="300" style="border:0;">
+    </iframe>
+</section>
+
+<section class="contact">
+    <h2>📞 Contact Us</h2>
+    <p>📲 7776978740 | 7378775573</p>
+    <p>📍 Alandi, Pune</p>
+</section>
+
+<footer>
+    <p>© 2026 Anokhi Enterprises</p>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/917776978740" class="whatsapp">💬</a>
+
+</body>
+</html>
